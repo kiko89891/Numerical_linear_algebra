@@ -1,0 +1,38 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (Multiplication.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+cl : command line  warning D9002: ignoring unknown option '/arch:SSE2'
+  Numerical_Linear_Algebra.cpp
+C:\Users\ruller\OneDrive\Desktop\Project_c++\Numerical_Linear_Algebra\Numerical_Linear_Algebra\Numerical_Linear_Algebra.cpp(362,41): warning C4101: 'e': unreferenced local variable
+C:\Users\ruller\OneDrive\Desktop\Project_c++\Numerical_Linear_Algebra\Numerical_Linear_Algebra\Numerical_Linear_Algebra.cpp(33,43): warning C4244: 'argument': conversion from 'double' to 'const unsigned __int64', possible loss of data
+C:\Users\ruller\OneDrive\Desktop\Project_c++\Numerical_Linear_Algebra\Numerical_Linear_Algebra\Numerical_Linear_Algebra.cpp(32,5): message : while compiling class template member function 'Matrix<double>::Matrix(double,double,double)'
+C:\Users\ruller\OneDrive\Desktop\Project_c++\Numerical_Linear_Algebra\Numerical_Linear_Algebra\Numerical_Linear_Algebra.cpp(372,28): message : see the first reference to 'Matrix<double>::Matrix' in 'main'
+C:\Users\ruller\OneDrive\Desktop\Project_c++\Numerical_Linear_Algebra\Numerical_Linear_Algebra\Numerical_Linear_Algebra.cpp(372,20): message : see reference to class template instantiation 'Matrix<double>' being compiled
+C:\Users\ruller\OneDrive\Desktop\Project_c++\Numerical_Linear_Algebra\Numerical_Linear_Algebra\Numerical_Linear_Algebra.cpp(33,17): warning C4244: 'argument': conversion from 'double' to 'const unsigned __int64', possible loss of data
+C:\Users\ruller\OneDrive\Desktop\Project_c++\Numerical_Linear_Algebra\Numerical_Linear_Algebra\Numerical_Linear_Algebra.cpp(35,30): warning C4244: 'initializing': conversion from 'unsigned __int64' to 'double', possible loss of data
+C:\Users\ruller\OneDrive\Desktop\Project_c++\Numerical_Linear_Algebra\Numerical_Linear_Algebra\Numerical_Linear_Algebra.cpp(36,33): warning C4244: 'initializing': conversion from 'unsigned __int64' to 'double', possible loss of data
+C:\Users\ruller\OneDrive\Desktop\Project_c++\Numerical_Linear_Algebra\Numerical_Linear_Algebra\Numerical_Linear_Algebra.cpp(49,23): warning C4244: 'argument': conversion from 'double' to 'const unsigned __int64', possible loss of data
+C:\Users\ruller\OneDrive\Desktop\Project_c++\Numerical_Linear_Algebra\Numerical_Linear_Algebra\Numerical_Linear_Algebra.cpp(379,13): message : see reference to function template instantiation 'T Matrix<T>::setValue<double>(double,double,T)' being compiled
+          with
+          [
+              T=double
+          ]
+C:\Users\ruller\OneDrive\Desktop\Project_c++\Numerical_Linear_Algebra\Numerical_Linear_Algebra\Numerical_Linear_Algebra.cpp(379,30): message : see the first reference to 'Matrix<double>::setValue' in 'main'
+C:\Users\ruller\OneDrive\Desktop\Project_c++\Numerical_Linear_Algebra\Numerical_Linear_Algebra\Numerical_Linear_Algebra.cpp(49,31): warning C4244: 'argument': conversion from 'double' to 'const unsigned __int64', possible loss of data
+C:\Users\ruller\OneDrive\Desktop\Project_c++\Numerical_Linear_Algebra\Numerical_Linear_Algebra\Numerical_Linear_Algebra.cpp(52,41): warning C4101: 'e': unreferenced local variable
+C:\Users\ruller\OneDrive\Desktop\Project_c++\Numerical_Linear_Algebra\Numerical_Linear_Algebra\Numerical_Linear_Algebra.cpp(96,36): warning C4244: 'argument': conversion from 'double' to 'const unsigned __int64', possible loss of data
+C:\Users\ruller\OneDrive\Desktop\Project_c++\Numerical_Linear_Algebra\Numerical_Linear_Algebra\Numerical_Linear_Algebra.cpp(294,12): message : see reference to function template instantiation 'T Matrix<T>::Center_data<double>(void)' being compiled
+          with
+          [
+              T=double
+          ]
+C:\Users\ruller\OneDrive\Desktop\Project_c++\Numerical_Linear_Algebra\Numerical_Linear_Algebra\Numerical_Linear_Algebra.cpp(396,13): message : see reference to function template instantiation 'T PCA::Call_PCA<double>(Matrix<T> &)' being compiled
+          with
+          [
+              T=double
+          ]
+C:\Users\ruller\OneDrive\Desktop\Project_c++\Numerical_Linear_Algebra\Numerical_Linear_Algebra\Numerical_Linear_Algebra.cpp(105,43): warning C4244: 'argument': conversion from 'double' to 'const unsigned __int64', possible loss of data
+C:\Users\ruller\OneDrive\Desktop\Project_c++\Numerical_Linear_Algebra\Numerical_Linear_Algebra\Numerical_Linear_Algebra.cpp(114,40): warning C4244: 'argument': conversion from 'double' to 'const unsigned __int64', possible loss of data
+C:\Users\ruller\OneDrive\Desktop\Project_c++\Numerical_Linear_Algebra\Numerical_Linear_Algebra\Numerical_Linear_Algebra.cpp(181,29): warning C4244: 'argument': conversion from 'double' to 'const unsigned __int64', possible loss of data
+C:\Users\ruller\OneDrive\Desktop\Project_c++\Numerical_Linear_Algebra\Numerical_Linear_Algebra\Numerical_Linear_Algebra.cpp(303,12): message : see reference to function template instantiation 'std::vector<std::vector<double,std::allocator<double>>,std::allocator<std::vector<double,std::allocator<double>>>> Matrix<double>::calculateCovarianceMatrix<double>(void)' being compiled
+C:\Users\ruller\OneDrive\Desktop\Project_c++\Numerical_Linear_Algebra\Numerical_Linear_Algebra\Numerical_Linear_Algebra.cpp(190,75): warning C4244: 'argument': conversion from 'double' to 'const unsigned __int64', possible loss of data
+C:\Users\ruller\OneDrive\Desktop\Project_c++\Numerical_Linear_Algebra\Numerical_Linear_Algebra\Numerical_Linear_Algebra.cpp(190,54): warning C4244: 'argument': conversion from 'double' to 'const unsigned __int64', possible loss of data
+  Multiplication.vcxproj -> C:\Users\ruller\OneDrive\Desktop\Project_c++\Numerical_Linear_Algebra\Numerical_Linear_Algebra\x64\Debug\Numerical_Linear_Algebra.exe

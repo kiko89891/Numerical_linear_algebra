@@ -1,0 +1,3 @@
+C:\Users\ruller\Desktop\Project_c++\Matrix_multiplication\Multiplication\x64\Debug\Multiplication.exe
+C:\Users\ruller\OneDrive\Desktop\Project_c++\Matrix_multiplication\Multiplication\x64\Debug\Numerical_Linear_Algebra.exe
+C:\Users\ruller\OneDrive\Desktop\Project_c++\Numerical_Linear_Algebra\Numerical_Linear_Algebra\x64\Debug\Numerical_Linear_Algebra.exe
