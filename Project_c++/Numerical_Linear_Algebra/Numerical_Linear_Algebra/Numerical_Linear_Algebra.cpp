@@ -25,15 +25,15 @@ class Matrix {
 
 private:
     // vector of vectors where the rows are vectors aand each vector contain N number of elements(columns)
-    std::vector<std::vector<double>> matrix;
+    std::vector<std::vector<T>> matrix;
 
 public:
     // initialize a matrix with a set of rows and column filled with a default value of 2 
-    Matrix(double rows, double cols, double defaultValue = 2)
-        :matrix(rows, std::vector<double>(cols, defaultValue)) {}
+    Matrix(size_t rows, size_t cols, T defaultValue = 2)
+        :matrix(rows, std::vector<T>(cols, defaultValue)) {}
 
-    double rows = matrix.size();
-    double cols = matrix[0].size();
+    size_t rows = matrix.size();
+    size_t cols = matrix[0].size();
 
     
     friend class PCA ;  // THIS IS NEEDED TO ACCESS VARIABLES and METHODS FROM class Matrix to class PCA
@@ -41,7 +41,7 @@ public:
  
 
     template <typename T>
-    T setValue(double row, double col, T value) {
+    T setValue(size_t row, size_t col, T value) {
         // check for out of range values
 
         try {
@@ -180,8 +180,8 @@ public:
      
         // Calculate the mean for each column
         std::vector<T> mean(cols, 0.0);
-        for (size_t j = 0; j < cols; ++j) {
-            for (size_t i = 0; i < rows; ++i) {
+        for (T j = 0; j < cols; ++j) {
+            for (T i = 0; i < rows; ++i) {
                 mean[j] += matrix[i][j];
             }
             mean[j] /= rows;
@@ -192,10 +192,10 @@ public:
 
         // THIS IS COLUMS AS THE COVRAIANCE MATRIX IS SYMETRIC DEFINED BY THE SIZE OF THE COLUMNS 
         // BY DEFINITION OF EIGENVALUES IT NEEDS TO BE SYMETRIC
-        for (size_t i = 0; i < cols; ++i) { // it should be cols not rows 
+        for (T i = 0; i < cols; ++i) { // it should be cols not rows 
 
-            for (size_t j = 0; j < cols; ++j) {
-                for (size_t k = 0; k < cols; ++k) {
+            for (T j = 0; j < cols; ++j) {
+                for (T k = 0; k < cols; ++k) {
 
                    covarianceMatrix[j][k] += (matrix[i][j] - mean[j]) * (matrix[i][k] - mean[k]);
 
@@ -402,7 +402,4 @@ int main() {
     init_PCA.Call_PCA<double>(myMatrix); // call function 
 
    
-};
-
-
 };
