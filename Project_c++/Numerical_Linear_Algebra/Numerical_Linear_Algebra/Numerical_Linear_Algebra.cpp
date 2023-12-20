@@ -267,6 +267,10 @@ public:
         return 0;
     }
 
+    // Destructor. Not really needed as no dynamic memory is used since 
+    //vectors within the matrix will be automatically deallocated when the Matrix object goes out of scope.
+    ~Matrix() {}
+
 };
 
 // it is a new class since the above are properties of a matrix, whereas this is not
@@ -331,7 +335,8 @@ public:
         std::cout << "PCA MATRIX:\n" << std::endl << PCA_matrix << std::endl;
         return 0;
     }
-
+    
+    ~PCA() {}
 
 };
 
@@ -395,6 +400,9 @@ int main() {
     PCA init_PCA;
 
     init_PCA.Call_PCA<double>(myMatrix); // call function 
+
+   
+};
 
 
 };
